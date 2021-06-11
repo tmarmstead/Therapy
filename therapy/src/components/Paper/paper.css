@@ -1,0 +1,17 @@
+.paper-title {
+text-align: center;
+}
+
+.paper-text {
+text-align: center;
+}
+
+.paper {
+    margin: 45px;
+    height: 300px;
+    width: 300px;
+}
+
+.first {
+    margin-left: 15%;
+}
