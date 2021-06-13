@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Therapy/static/css/main.8fb27399.chunk.css",
+    "main.js": "/Therapy/static/js/main.9129bbbd.chunk.js",
+    "main.js.map": "/Therapy/static/js/main.9129bbbd.chunk.js.map",
+    "runtime-main.js": "/Therapy/static/js/runtime-main.4296e994.js",
+    "runtime-main.js.map": "/Therapy/static/js/runtime-main.4296e994.js.map",
+    "static/css/2.502f3a46.chunk.css": "/Therapy/static/css/2.502f3a46.chunk.css",
+    "static/js/2.3d56a840.chunk.js": "/Therapy/static/js/2.3d56a840.chunk.js",
+    "static/js/2.3d56a840.chunk.js.map": "/Therapy/static/js/2.3d56a840.chunk.js.map",
+    "index.html": "/Therapy/index.html",
+    "static/css/2.502f3a46.chunk.css.map": "/Therapy/static/css/2.502f3a46.chunk.css.map",
+    "static/css/main.8fb27399.chunk.css.map": "/Therapy/static/css/main.8fb27399.chunk.css.map",
+    "static/js/2.3d56a840.chunk.js.LICENSE.txt": "/Therapy/static/js/2.3d56a840.chunk.js.LICENSE.txt",
+    "static/media/picture.288ba8dd.jpg": "/Therapy/static/media/picture.288ba8dd.jpg",
+    "static/media/index.css": "/Therapy/static/media/roboto-vietnamese-400-normal.c0bec65d.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4296e994.js",
+    "static/css/2.502f3a46.chunk.css",
+    "static/js/2.3d56a840.chunk.js",
+    "static/css/main.8fb27399.chunk.css",
+    "static/js/main.9129bbbd.chunk.js"
+  ]
+}
