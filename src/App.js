@@ -1,7 +1,7 @@
 import React from "react";
 import './App.css';
 import "@fontsource/roboto";
-import HomePage from './Pages/Home';
+// import HomePage from './Pages/Home';
 import AboutPage from './Pages/About';
 import Navigation from './components/Navbar/navbar';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
