@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
     navbar: {
-        background: '#8BD8C6'
+        background: '#ddbea9'
     },
     toolbarButtons: {
         marginLeft: 'auto',

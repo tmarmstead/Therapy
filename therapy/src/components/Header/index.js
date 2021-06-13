@@ -12,15 +12,15 @@ const useStyles = makeStyles((theme) => ({
         height: '100vh'
     },
     textcolor: {
-        color: '#d45548'
+        color: '#cb997e'
     },
     container: {
         textAlign: 'center'
     },
     title: {
-        color: 'black',
+        color: '#6b705c',
         fontSize: '5rem',
-        fontFamily: 'Comfortaa'
+        fontFamily: 'Helvetica'
     },
     expandMore: {
         color: 'black',
@@ -42,7 +42,7 @@ function Header() {
                 collapsedHeight={50}>
                 <div className={classes.container}>
                     <h1 className={classes.title}>
-                        Welcome to<br /><span className={classes.textcolor}>Stein-Greene Therapy</span>
+                        Get Help Today<br /><span className={classes.textcolor}>From Experienced Professionals</span>
                     </h1>
                     <Scroll to="start-btn" smooth={true}>
                         <IconButton>

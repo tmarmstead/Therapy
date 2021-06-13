@@ -8,16 +8,17 @@ import StartBtn from '../../components/StartBtn';
 const useStyles = makeStyles((theme) => ({
     root: {
         minHeight: '100vh',
-        backgroundImage: `url(${process.env.PUBLIC_URL + '/assets/pastel.jpeg'})`,
+        background: `#ffe8d6`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover'
     }
 }));
 
 const Landing = () => {
+    const classes = useStyles();
 
     return (
-        <div>
+        <div className={classes.root}>
             <CssBaseline />
             <Header />
             <StartBtn />
