@@ -8,14 +8,35 @@ import Paper from '@material-ui/core/Paper';
 import Typography from "@material-ui/core/Typography";
 // import IconButton from '@material-ui/IconButton';
 // import ActionHome from 'material-ui/svg-icons/action/home';
-import Image from '../../images/picture.jpg';
+import CoupleAtTable from '../../images/couple-at-table.png';
+import Happy from '../../images/happy.png';
+import Military from '../../images/military.png';
+import Child from '../../images/child.png';
 // import Box from '@material-ui/core/Box'
 import "../Paper/paper.css"
 
 const styles = {
     paperContainer: {
-        backgroundImage: `url(${Image})`,
+        backgroundImage: `url(${CoupleAtTable})`,
         objectFit: 'cover'
+    },
+    two: {
+        backgroundImage: `url(${Happy})`,
+        height: 240,
+        width: 240,
+        objectFit: 'fill'
+    },
+    three: {
+        backgroundImage: `url(${Military})`,
+        height: 240,
+        width: 240,
+        objectFit: 'fill'
+    },
+    four: {
+        backgroundImage: `url(${Child})`,
+        height: 240,
+        width: 240,
+        objectFit: 'fill'
     }
 };
 
@@ -38,13 +59,10 @@ export default function SimplePaper() {
     return (
         <div className={classes.root}>
 
-            <Paper className="paper first" elevation={9} />
-            <Paper className="paper" elevation={9}>
-                <Typography variant="h4" className="paper-title">Therapy for Everyone</Typography>
-                <Typography variant="h5" className="paper-text">We are experienced and ready to help our clients work through a variety of topics</Typography>
-            </Paper>
-            <Paper className="paper" style={styles.paperContainer} elevation={9}>Picture here?</Paper>
-            <Paper className="paper" elevation={9} />
+            <Paper className="paper first" style={styles.paperContainer} elevation={9} />
+            <Paper className="paper" style={styles.two} elevation={9} />
+            <Paper className="paper" style={styles.four} elevation={9} />
+            <Paper className="paper" style={styles.three} elevation={9} />
         </div>
     );
 }

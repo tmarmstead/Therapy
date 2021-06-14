@@ -10,9 +10,7 @@ function HomePage() {
         <div>
             <h1 className="page-title">Stein-Greene Therapy</h1>
             <SimplePaper />
-
-            {/* <SimplePaper /> */}
-            {/* </SimpleCard> */}
+            {/* <h1>Our therapists are experienced and ready to help you navigate through a wide variety of topics. Call us now for a consultation where we can work together to get you the help you need.</h1> */}
         </div>
     )
 }
