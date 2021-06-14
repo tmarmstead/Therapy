@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tabs, Tab, AppBar } from '@material-ui/core';
+import { Tabs, Tab, AppBar, Typography } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { Link } from 'react-router-dom';
 
@@ -42,9 +42,6 @@ function Navigation() {
                     <Tab label="About" component={Link} to={'/about'} />
                     <Tab label="Contact" component={Link} to={'/contact'} />
                     <span className={classes.toolbarButtons}>
-                        {/* <Button color="inherit" onClick={() => handleLogout()}>
-                            Log Out
-						</Button> */}
                     </span>
                 </Tabs>
             </AppBar>

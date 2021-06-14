@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { IconButton, Collapse } from '@material-ui/core';
 import { Link as Scroll } from 'react-scroll'
-
+import './header.css'
 const useStyles = makeStyles((theme) => ({
     root: {
         display: 'flex',
@@ -41,7 +41,7 @@ function Header() {
             <Collapse in={checked} {... (checked ? { timeout: 1000 } : {})}
                 collapsedHeight={50}>
                 <div className={classes.container}>
-                    <h1 className={classes.title}>
+                    <h1 className={classes.title} id="test">
                         Get Help Today<br /><span className={classes.textcolor}>From Experienced Professionals</span>
                     </h1>
                     <Scroll to="start-btn" smooth={true}>
